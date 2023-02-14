@@ -1,8 +1,10 @@
+import snowflake_connection as Snk
 from snowflake.snowpark import Session
 
-aver=SnowflakeConn()
+session=Snk.snow_session()
 
-a=spk.table('personas')
+a=session.table('personas')
 
 print(a.show())
+
  
