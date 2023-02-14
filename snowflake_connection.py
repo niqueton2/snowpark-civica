@@ -1,5 +1,5 @@
 from snowflake.snowpark import Session
-from snowflake_connection import SnowflakeConn
+#from snowflake_connection import SnowflakeConn
 # Necsitamos lo dea rriba para llamar a snowflake 
 
 # SC=SnowflakeConn
