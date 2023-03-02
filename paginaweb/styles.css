@@ -1,0 +1,95 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para la cabecera de la página */
+header {
+  background-color: #6ab04c; /* verde claro */
+  color: #FFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Estilos para el contenido principal de la página */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+main h3 {
+  font-size: 24px;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los encabezados de los productos */
+.product h3 {
+  background-size: cover;
+  color: #110d0d;
+  font-size: 24px;
+  margin-top: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para los encabezados de los productos de plantas de interior */
+.product .plantas-interior h3 {
+  background-image: url('img/prueba_imagen.jpg');
+}
+
+.product {
+  background-size: 100% auto;
+  /* ...otros estilos... */
+}
+
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #3b6c35; /* verde oscuro */
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+}

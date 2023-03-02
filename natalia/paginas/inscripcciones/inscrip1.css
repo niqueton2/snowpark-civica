@@ -1,0 +1,87 @@
+
+/* Encuadre de imagenes y parte central de inscripcción */
+
+body {
+  background-image: url("img/conferencia.jpg");
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  background-size: auto 180%;
+}
+
+
+
+
+
+/* Estilos para la cabecera de la inscripción */
+.cabecera {
+  width: 36%;
+  margin: auto;
+  padding-left: 20px;
+  border: 2px solid #000000;
+  background-color: #d6d6d6;
+  border-radius: 15px;
+}
+
+
+/* Estilos para el formulario de inscripción */
+form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Estilos para los mensajes de error */
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  /* Estilos para el mensaje de éxito */
+  .mensaje-exito {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #dff0d8;
+    color: green;
+    font-weight: bold;
+  }
+  

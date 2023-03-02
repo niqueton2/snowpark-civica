@@ -1,0 +1,85 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Estilos para la cabecera con info */
+
+.infoimportante {
+	display: flex;
+	justify-content: space-evenly;
+  background-image: url("img/grupo-personas-fiesta.jpg");
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  background-size: auto 650%;
+  }
+.recuadroinfo {
+  width: 20%;
+  margin: auto;
+  padding-left: 20px;
+  border: 2px solid #000000;
+  background-color: #fffcfc;
+}
+.info {
+	flex-grow: 1;
+  }
+  
+.botoni {
+	flex-grow: 1;
+
+  }
+  /* Estilos para el botón de inscripción */
+  .boton-inscripcion {
+    margin-top: 20px;
+    width: 30%;
+  }
+  
+  .boton-inscripcion a {
+    display: inline-block;
+    background-color: #fffefe;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .boton-inscripcion a:hover {
+    background-color: #34495e;
+  }
+  
+  /* Estilos para las actividades */
+  .actividad {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    vertical-align: top;
+  }
+  
+  .actividad img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .actividad h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .actividad p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  /* Estilos para el pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

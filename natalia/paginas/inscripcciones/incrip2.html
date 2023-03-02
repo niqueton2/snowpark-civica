@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscripción a la Conferencia de tecnología</title>
+	<link rel="stylesheet" type="text/css" href="inscrip2.css">
+</head>
+<body>
+	<h1>Inscripción a la Conferencia de tecnología</h1>
+	<p>Por favor, complete el siguiente formulario para inscribirse a la Conferencia de tecnología:</p>
+	<form>
+		<label for="nombre">Nombre completo:</label><br>
+		<input type="text" id="nombre" name="nombre" required><br>
+
+		<label for="email">Correo electrónico:</label><br>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="telefono">Teléfono:</label><br>
+		<input type="tel" id="telefono" name="telefono"><br>
+
+		<label for="asistencia">¿ Que actividad te interesa más ?</label><br>
+		<select id="asistencia" name="asistencia" required>
+			<option value="" disabled selected>Seleccione una opción</option>
+			<option value=1> Cricket </option>
+			<option value=2> Recogida de uva</option>
+            <option value=3> Ver bandolero </option>
+		</select><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

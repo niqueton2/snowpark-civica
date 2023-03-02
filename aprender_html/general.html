@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera weba</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th> Producto </th>
+                <th> Producto </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Mango </td>
+                <td> 10,99 </td>
+            </tr>
+            <tr>
+                <td> Lima </td>
+                <td> 2,35 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td> Total : 13,34 </td>
+        </tfoot>
+  
+    </table>
+
+
+    <!-- ul es una lista no ordenada y ol ordenada -->
+    <ol>
+        <li value="50"> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+        <li> holi
+            <ol>
+                <li style="list-style-type:lower-alpha"> sub elemento 1</li>
+                <li style="list-style-type:lower-alpha"> sub elemento 2</li>
+                <li style="list-style-type:lower-alpha"> sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <!-- podemos indicar con que valor empieza la lista ordenada-->
+    <ul>
+        <li> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+    </ul>
+
+
+
+
+    <form action="/formulario" method="POST">  <!-- para recoger datos -->
+        <!-- Existe GET y POST 
+
+        Con GET enviará los valores
+        dentro de los campos a 
+        través de la URL en concreto a esta
+        file:///C:/formulario?nombre=nicolatio&apellido=gar
+        
+        Con POST la url solo contiene el string
+        de action osea /formulario
+
+        ninguna de estas dos formas son seguras
+        ,-->
+        <label for="nombre">Nombre</label> <!-- la mierda del for id 
+         para hacer que al char en el label también te deje escribir (brutal)-->
+        <input  value="Valor por defecto" type="text" id="nombre" name="nombre" placeholder="Ronaldo Nazario"/ >
+        <!-- con el type lo ponemos como boton etc "text"(por defecto),"submit" 
+            ,"email","password"(para ocultar),"radio" ,"checkbox","file"-->
+        <br>
+        <label for="apellido" > Apellido </label>
+        <input type="text" id="apellido" name="apellido"  /> 
+        <br>
+        <label for="comentario"> Comentario </label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comment bro" name="comentario"> Este es un valor por defecto </textarea>
+        <br>
+        <button type="button"><img src="img/prueba_imagen.jpg"/> Pinchame perri </button>
+        <!-- el tipo de botton puede ser "button"
+            - meter comportamiento con JS
+              "reset"
+            - dejar el formulario con los valores 
+                que tenía inicialmente 
+             "submit"
+            - para enviar resultados 
+            como el input de abajo 
+            eligiendo el texto-->
+        <br>
+        <input type="submit" /> <!-- envia los datos jejejeje-->
+
+
+    </form>  <!-- con la etiqueta from agrupamos todo lo 
+                que recoge en un mismo diccionario -->
+
+
+    <h1>Mi primer heading</h1> <!--- Titulos (h cabeceras)-->
+    <h2>Mi segundo heading</h2> <!--- Subtitulos-->
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi infinito heading</h6> <!--- esta es la última q existe-->
+    <p>Chanchito feliz esta muy feliz</p> 
+    <!--- la <p> Para separar en distintos párrafos 
+     añadimos otra etiqueta de p (parrafo)-->
+    <hr> <!---  metes una línea para separar -->
+    <h2>Mi segundo heading</h2>
+    <p>
+        Texto extra muy largo 
+        <span style="color:blue">por la cara</span> <!-- marcamos una parte concreta-->
+         por utilizar otra
+        etiqueta <br> <!--hacemos saltos de linea en texto-->
+        de no se que  
+    </p>
+    <hr>
+    <a href="https://www.google.com"> Ir a google en esta pestaña </a> <!-- hipervinculo-->
+    <br> <!-- si no pones esto te lo pone al ladito-->
+    <a  target="_blank" href="https://www.google.com"> Ir a google otra pestaña </a>
+    <br>
+    <img src="img/prueba_imagen.jpg" width="500"/>
+
+    <!-- si solo ponemos una propiedad de width o height 
+    la imagen no se deforma al agrandarse o empequeñecerse-->
+
+    <form>
+        <input /
+    </form>
+
+
+
+
+</body>
+</html>
